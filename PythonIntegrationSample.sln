@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythonIntegrationSample", "WindowsFormsApp2\PythonIntegrationSample.csproj", "{A39FFFF2-4608-44D2-85A3-35FDBC34F7CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A39FFFF2-4608-44D2-85A3-35FDBC34F7CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A39FFFF2-4608-44D2-85A3-35FDBC34F7CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A39FFFF2-4608-44D2-85A3-35FDBC34F7CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A39FFFF2-4608-44D2-85A3-35FDBC34F7CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77AAE3A1-6B3D-4860-BD85-A81CC5382BA4}
+	EndGlobalSection
+EndGlobal
