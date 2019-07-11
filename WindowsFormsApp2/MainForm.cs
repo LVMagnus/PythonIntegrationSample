@@ -38,24 +38,17 @@ namespace PythonIntegrationSample
 
         private void btnCalculate_Click(object sender, EventArgs e)
         {
-            BigInteger result;
+            dynamic result;
             int n = Decimal.ToInt32(nudN.Value);
             int p = Decimal.ToInt32(nudP.Value);
             bool repeat = chbRepetition.Checked;
 
-            try
-            {
-                if (rdbCombination.Checked)
-                    result = new BigInteger(pythonHandler.Combination(n, p, repeat));
-                else
-                    result = new BigInteger(pythonHandler.Permutation(n, p, repeat));
+            if (rdbCombination.Checked)
+                result = pythonHandler.Combination(n, p, repeat);
+            else
+                result = pythonHandler.Permutation(n, p, repeat);
 
-                txbResult.Text = Convert.ToString(result);
-            }
-            catch
-            {
-                txbResult.Text = "Result too large";
-            }
+            txbResult.Text = result.ToString();
 
         }
 
