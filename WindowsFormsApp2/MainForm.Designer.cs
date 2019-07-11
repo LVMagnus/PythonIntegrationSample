@@ -49,11 +49,11 @@
             this.groupBox1.Controls.Add(this.rdbCombination);
             this.groupBox1.Controls.Add(this.rdbPermutation);
             this.groupBox1.Controls.Add(this.chbRepetition);
-            this.groupBox1.Location = new System.Drawing.Point(19, 24);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Location = new System.Drawing.Point(25, 30);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.groupBox1.Size = new System.Drawing.Size(99, 110);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox1.Size = new System.Drawing.Size(132, 135);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Operation";
@@ -61,10 +61,10 @@
             // rdbCombination
             // 
             this.rdbCombination.AutoSize = true;
-            this.rdbCombination.Location = new System.Drawing.Point(5, 50);
-            this.rdbCombination.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rdbCombination.Location = new System.Drawing.Point(7, 62);
+            this.rdbCombination.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rdbCombination.Name = "rdbCombination";
-            this.rdbCombination.Size = new System.Drawing.Size(83, 17);
+            this.rdbCombination.Size = new System.Drawing.Size(107, 21);
             this.rdbCombination.TabIndex = 2;
             this.rdbCombination.Text = "Combination";
             this.rdbCombination.UseVisualStyleBackColor = true;
@@ -73,10 +73,10 @@
             // 
             this.rdbPermutation.AutoSize = true;
             this.rdbPermutation.Checked = true;
-            this.rdbPermutation.Location = new System.Drawing.Point(5, 28);
-            this.rdbPermutation.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.rdbPermutation.Location = new System.Drawing.Point(7, 34);
+            this.rdbPermutation.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.rdbPermutation.Name = "rdbPermutation";
-            this.rdbPermutation.Size = new System.Drawing.Size(81, 17);
+            this.rdbPermutation.Size = new System.Drawing.Size(105, 21);
             this.rdbPermutation.TabIndex = 1;
             this.rdbPermutation.TabStop = true;
             this.rdbPermutation.Text = "Permutation";
@@ -85,10 +85,10 @@
             // chbRepetition
             // 
             this.chbRepetition.AutoSize = true;
-            this.chbRepetition.Location = new System.Drawing.Point(4, 87);
-            this.chbRepetition.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.chbRepetition.Location = new System.Drawing.Point(5, 107);
+            this.chbRepetition.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.chbRepetition.Name = "chbRepetition";
-            this.chbRepetition.Size = new System.Drawing.Size(74, 17);
+            this.chbRepetition.Size = new System.Drawing.Size(94, 21);
             this.chbRepetition.TabIndex = 0;
             this.chbRepetition.Text = "Repetition";
             this.chbRepetition.UseVisualStyleBackColor = true;
@@ -96,10 +96,10 @@
             // 
             // btnCalculate
             // 
-            this.btnCalculate.Location = new System.Drawing.Point(218, 156);
-            this.btnCalculate.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.btnCalculate.Location = new System.Drawing.Point(279, 144);
+            this.btnCalculate.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnCalculate.Name = "btnCalculate";
-            this.btnCalculate.Size = new System.Drawing.Size(76, 19);
+            this.btnCalculate.Size = new System.Drawing.Size(101, 23);
             this.btnCalculate.TabIndex = 1;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
@@ -108,27 +108,25 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(146, 57);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(209, 58);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(15, 13);
+            this.label1.Size = new System.Drawing.Size(18, 17);
             this.label1.TabIndex = 2;
             this.label1.Text = "N";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(146, 97);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Location = new System.Drawing.Point(209, 107);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(14, 13);
+            this.label2.Size = new System.Drawing.Size(17, 17);
             this.label2.TabIndex = 3;
             this.label2.Text = "P";
             // 
             // nudN
             // 
-            this.nudN.Location = new System.Drawing.Point(164, 53);
-            this.nudN.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nudN.Location = new System.Drawing.Point(233, 53);
+            this.nudN.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nudN.Maximum = new decimal(new int[] {
             1215752192,
             23,
@@ -140,7 +138,7 @@
             0,
             0});
             this.nudN.Name = "nudN";
-            this.nudN.Size = new System.Drawing.Size(111, 20);
+            this.nudN.Size = new System.Drawing.Size(148, 22);
             this.nudN.TabIndex = 4;
             this.nudN.Value = new decimal(new int[] {
             1,
@@ -151,8 +149,8 @@
             // 
             // nudP
             // 
-            this.nudP.Location = new System.Drawing.Point(163, 95);
-            this.nudP.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.nudP.Location = new System.Drawing.Point(231, 105);
+            this.nudP.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.nudP.Maximum = new decimal(new int[] {
             1215752192,
             23,
@@ -164,7 +162,7 @@
             0,
             0});
             this.nudP.Name = "nudP";
-            this.nudP.Size = new System.Drawing.Size(112, 20);
+            this.nudP.Size = new System.Drawing.Size(149, 22);
             this.nudP.TabIndex = 5;
             this.nudP.Value = new decimal(new int[] {
             1,
@@ -176,28 +174,27 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(16, 157);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Location = new System.Drawing.Point(12, 167);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(37, 13);
+            this.label3.Size = new System.Drawing.Size(48, 17);
             this.label3.TabIndex = 6;
             this.label3.Text = "Result";
             // 
             // txbResult
             // 
             this.txbResult.Enabled = false;
-            this.txbResult.Location = new System.Drawing.Point(56, 157);
-            this.txbResult.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.txbResult.Location = new System.Drawing.Point(15, 193);
+            this.txbResult.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txbResult.Name = "txbResult";
-            this.txbResult.Size = new System.Drawing.Size(144, 20);
+            this.txbResult.Size = new System.Drawing.Size(376, 22);
             this.txbResult.TabIndex = 7;
             this.txbResult.WordWrap = false;
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(304, 205);
+            this.ClientSize = new System.Drawing.Size(403, 242);
             this.Controls.Add(this.txbResult);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.nudP);
@@ -206,10 +203,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnCalculate);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(320, 244);
-            this.MinimumSize = new System.Drawing.Size(320, 244);
+            this.MaximumSize = new System.Drawing.Size(421, 289);
+            this.MinimumSize = new System.Drawing.Size(421, 289);
             this.Name = "MainForm";
             this.Text = "Python Combinatorics Sample";
             this.groupBox1.ResumeLayout(false);
