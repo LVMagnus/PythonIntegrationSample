@@ -1,5 +1,11 @@
 ﻿import math
 
+"""
+   NOTICE: for this IronPython sample, the functions return strings as a matter of convenience (it skips a C#
+   int to big int convertion, and hanving to find ways to force python to return a C# big int instead of an out
+   of bounds standard C# int). In a different set up or a pure python set up, they would return pythong integers.
+"""
+
 def Permutation(elementPoolSize, selectionSize, repetitionAllowed = False):
     """
        Calculates how many ways n elements can be arranged in p positions when order of elements do matter.
@@ -39,7 +45,7 @@ def Permutation(elementPoolSize, selectionSize, repetitionAllowed = False):
         #end for
     #end if-else
 
-    return int(result)
+    return str(int(result))
 #end def Permutation(elementPoolSize, selectionSize, repetition)
 
 
@@ -73,9 +79,9 @@ def Combination(elementPoolSize, selectionSize, repetitionAllowed = False):
     #main code
     
     if repetitionAllowed:
-        return int(math.factorial((selectionSize + elementPoolSize - 1)) / ( math.factorial(selectionSize) * math.factorial(elementPoolSize-1)))
+        return str(int(math.factorial((selectionSize + elementPoolSize - 1)) / ( math.factorial(selectionSize) * math.factorial(elementPoolSize-1))))
     else:
-        return int(math.factorial(elementPoolSize) / ( math.factorial(selectionSize) * math.factorial(elementPoolSize-selectionSize)))
+        return str(int(math.factorial(elementPoolSize) / ( math.factorial(selectionSize) * math.factorial(elementPoolSize-selectionSize))))
 #end def Combination(elementPoolSize, selectionSize, repetition)
 
 
